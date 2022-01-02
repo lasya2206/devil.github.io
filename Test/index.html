@@ -1,0 +1,120 @@
+
+<html>
+    <head>
+        <title>
+            Form for admission
+        </title>
+    </head>
+    <body>
+       
+        <h1 align = "center"><u> Geekster Admission form</u></h1>
+        <br/>
+        <br/>
+            <form enctype="application/x-www-form-urlencoded" align = "center">
+                <label>Enter Name:</label>
+                <input type="text" placeholder="Name"
+                minlength="8" maxlength="10"/>
+                <br/>
+                <br/>
+                <label>Email Id:</label>
+                <input type="email" placeholder="xyz@gmail.com"/>
+                <br/>
+                <br/>
+                <label>Enter password</label>
+                <input type="password" placeholder="password"
+                minlength="4" maxlength="10"/>
+                <br/>
+                <br/>
+                <label>Repeat password</label>
+                <input type="password" placeholder="password"
+                minlength="4" maxlength="10"/>
+                <br/>
+                <br/>
+                <label> Gender:-</label>
+                <input type="radio" placeholder="Gender"
+                name="Gender"> <label>Male</label>
+                <input type="radio" placeholder="Gender"
+                name="Gender"> <label>Female</label>
+                <input type="radio" placeholder="Gender"
+                name="Gender"> <label>Others</label>
+                 <br/>
+                 <br/>
+                <Label>DOB:</Label>
+                <input type="month" placeholder="DD/MM/YYYY"/>
+                <br/>
+                <br/>
+                <label>Highest Education Qualification:-</label>
+                <br/>
+                <br/>
+                <input type="radio" placeholder="Qualification"
+                name="Qualification"> <label>Postgraduate</label>
+                <br/>
+                <br/>
+                <input type="radio" placeholder="Qualification"
+                name="Qualification"> <label>Graduate</label>
+                <br/>
+                <br/>
+                <input type="radio" placeholder="Qualification"
+                name="Qualification"> <label>UnderGraduate</label>
+                <br/>
+                <br/>
+                <label>Subject chosen by you in Geekster:-</label>
+                <br/>
+                <br/>
+                <input type="radio" placeholder="Subject"
+                name="Subject"> <label>Java</label>
+                <br/>
+                <br/>
+                <input type="radio" placeholder="Subject"
+                name="Subject"> <label>MERN</label>
+                <br/>
+                <br/>
+                <label>Upload Resume:-</label>
+                <input type="file" placeholder=""
+                accept="docx,pdf">
+                <br/>
+                <br/>
+                <label>Date of completion of Graduation</label>
+                <select>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>others</option>
+                </select>
+                <br/>
+                <br/>
+                <label>Rate Your Communication skills:-</label>
+                <input type ="range" placeholder=""
+                range="number" value="1-10"/>
+        
+                <br/>
+                <br/>
+                <label>Are You Student Or Employee??</label>
+                <input type="checkbox" name="Checkbox"/>
+                <label>Student</label>
+                <input type="checkbox" name="Checkbox"/>
+                <label>Employee</label>
+                <input type="checkbox" name="Checkbox"/>
+                <label>Both</label>
+                <br/>
+                <br/>
+                <button onclick="getFormData()">Submit <a href=""></a></button>
+                <br/>
+                <p>Already have an account?? click here to login <a href=""></a></p>
+        </form>
+    </body>
+    <script>
+        var jsonData={}
+    var form= document.getElementsByTagName("form");
+    let getFormData=()=>{
+        event.preventDefault() 
+        let formData= new FormData(form[0])
+            
+            formData.forEach(function(value, key){
+                jsonData[key] = value;
+            });
+            console.log(JSON.stringify(jsonData));
+            alert ("Json Data Printed in The Console Please Check The Console");
+    }
+    </script>
+</html>
