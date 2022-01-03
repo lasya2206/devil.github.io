@@ -1,0 +1,47 @@
+p{
+    color: red;
+}
+body{
+    background-color: greenyellow;
+    border-style: solid;
+    border-width: 1px;
+}
+#screen{
+    border-style: solid;
+    border-width: 5px;
+    align = "center";
+}
+form{
+    text-align: center;
+    border: yellowgreen;
+    border-width: 0px;
+    border-style: solid;
+    
+}
+table{
+    border-style: double;
+    border-spacing: 1px;
+    background-color: black;
+}
+th{
+    background-color: black;
+    margin-block-start: 1000px;
+    background-size: auto;
+
+}
+label{
+    color: blanchedalmond;
+}
+
+/* #id */
+/* .<class selector>*/
+/* [<attribute type> = "<attribute-property>"]*/
+/* [href$ = ".io,.com"]
+{
+    color =
+    *
+    ~
+}*/
+assignments
+add css to your landing page(no inline and no internal)
+create calculator with good display
