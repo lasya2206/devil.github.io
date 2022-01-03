@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    background-color: yellow;
+    padding: 40px;
+}
+h2{
+    color: red;
+    background-color: violet;
+    padding: 30px;
+    text-align: center;
+}
+#p1{
+    float: center;
+    background-color: rosybrown;
+    padding: 30px;
+}
+#Hindustani{
+    float: center;
+    background-color: blueviolet;
+    padding: 30px;
+}
+h3{
+    float: center;
+    background-color: orangered;
+    padding: 30px;
+}
+button{
+    text-align: center;
+    background-color: orchid;
+    border-style: double;
+}
+p{
+    background-color: red;
+    padding: 20px;
+}
