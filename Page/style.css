@@ -1,0 +1,15 @@
+.para{
+    background-color: aqua;
+    border: 12px double red;
+   
+}
+
+body{
+    /* border: 12px double red; */
+}
+p{
+    padding: 34px;
+}
+h1{
+    text-align: center;
+}
