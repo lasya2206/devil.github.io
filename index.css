@@ -1,39 +1,27 @@
 body{
-    background-color: aqua;
+    margin-left: 40%;
+    margin-top:50px;
 }
-h1{
-    text-align: center;
-    color: crimson;
-    background-color: yellow;
-    padding: 40px;
+.triangle_1{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid red;
 }
-h2{
-    color: red;
-    background-color: violet;
-    padding: 30px;
-    text-align: center;
+
+.triangle_2{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid rgb(45, 0, 243);
 }
-#p1{
-    float: center;
-    background-color: rosybrown;
-    padding: 30px;
-}
-#Hindustani{
-    float: center;
-    background-color: blueviolet;
-    padding: 30px;
-}
-h3{
-    float: center;
-    background-color: orangered;
-    padding: 30px;
-}
-button{
-    text-align: center;
-    background-color: orchid;
-    border-style: double;
-}
-p{
-    background-color: red;
-    padding: 20px;
+
+.triangle_3{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid rgb(13, 116, 4);
 }
