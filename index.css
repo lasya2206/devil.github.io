@@ -1,63 +1,27 @@
 body{
-  background-color: palegreen;
+    margin-left: 40%;
+    margin-top:50px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
+.triangle_1{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid red;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.triangle_2{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid rgb(45, 0, 243);
 }
 
-li a:hover {
-  background-color: #111;
-}
-h1{
-  text-align: center;
-  color: crimson;
-  background-color: yellow;
-  padding: 40px;
-}
-h2{
-  color: red;
-  background-color: violet;
-  padding: 30px;
-  text-align: center;
-}
-#p1{
-  float: center;
-  background-color: rosybrown;
-  padding: 30px;
-}
-#Hindustani{
-  float: center;
-  background-color: blueviolet;
-  padding: 30px;
-}
-h3{
-  float: center;
-  background-color: orangered;
-  padding: 30px;
-}
-button{
-  text-align: center;
-  background-color: yellow;
-  border-style: double;
-  border-color: black;
-}
-p{
-  background-color: red;
-  padding: 20px;
+.triangle_3{
+    width: 0;
+    height: 0px;
+  border-left: 150px solid white;
+  border-right: 150px solid white;
+  border-bottom: 150px solid rgb(13, 116, 4);
 }
