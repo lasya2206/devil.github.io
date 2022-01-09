@@ -1,0 +1,59 @@
+.time{
+    float: right;
+    padding-left: 1%;
+    margin-right: 5%;
+    color: blueviolet;
+   
+}
+.date{
+    float: right;
+    padding-left: 1%;
+    margin-right: 5%;
+    color: rgb(41, 10, 218);
+    
+}
+.support{
+    float: right;
+    padding-left: 1%;
+    margin-right: 5%;
+    color: crimson;
+    
+}
+.feedback{
+    float: right;
+    padding-left: 1%;
+    margin-right: 5%;
+    color: darkgoldenrod;
+   
+}
+.settings{
+   float: right;
+   padding-right: 1%;
+   margin-right: 5%;
+   color: red;
+  
+}
+h1{
+    margin-top: 100px;
+}
+.abc{
+    float:left;
+    
+}
+body{
+    background-color: aqua;
+}
+button{
+    font-size: 150%;
+    border-color: midnightblue;
+    border-style: double;
+}
+input{
+    font-size: 150%;
+    border-color: deeppink;
+    border-style: groove
+}
+a:hover{
+    color: red;
+}
+
