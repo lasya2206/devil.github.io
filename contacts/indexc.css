@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+}
+.navigation{
+    position: fixed;
+    left: 45%;
+    color: blue;
+    border: 20%;
+    z-index: -1;
+    width: 500px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+h1{
+  position: sticky;
+  top: 0px
+}
+body{
+    background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.A>h1{
+  background-color: #81F
+}
+.B>h1{
+  background-color: #ce1d1d;
+}
+.C>h1{
+background-color: darkgoldenrod;
+}
