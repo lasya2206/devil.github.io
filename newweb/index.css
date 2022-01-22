@@ -1,0 +1,36 @@
+body{
+  background-color: aquamarine;
+  margin-left: 20px;
+}
+.like{
+z-index:999;
+float:left;
+margin:1 5 -5 5;
+margin-bottom: 200px;
+margin-left: 300px;
+width:181px;
+border-radius:10px;
+position:absolute; bottom:2px; left:2px; right:100px;
+}
+.new_image1 img{
+  margin-left: 50px;
+}
+.new_image{
+  margin-left: 50px;
+}
+.dislike{
+  z-index:999;
+  float:left;
+  margin:1 5 -5 5;
+  margin-bottom: 200px;
+  width:181px;
+  border-radius:10px;
+  position:absolute;bottom: 2px;left: 2px; right:100px;
+}
+.buttons {
+  width:auto;
+  height:auto;
+}
+.Dislike{
+    float:right;
+}
