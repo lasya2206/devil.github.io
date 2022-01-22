@@ -1,0 +1,39 @@
+body{
+    background-color: seagreen;
+}
+.card{
+    position: relative;
+    margin-right: 100%;
+    margin-left: 30%;
+    border: 20%;
+    width: 500px;
+    height: 550px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: black;
+    border-style: groove;
+}
+.image{
+    border-radius: 60%;
+}
+p{
+color: navy;
+}
+h1{
+    color: brown;
+}
+button{
+      border-style: groove;
+    border: black;
+    background-color: yellow;
+    color: darkred;
+}
+h1:hover{
+    color: coral;
+}
+button:hover{
+    color: crimson;
+    background-color: darkgoldenrod;
+}
