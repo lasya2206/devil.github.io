@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href="index.css"/>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <form>
+            <table align="center">
+                <tr>
+                    <th><label id="result">0</label>
+                    </th>
+                </tr>
+                <tr id = "first row">
+           <td><input type="button" value="1" onclick="concatNumber('1')"></td>
+           <td><input type="button" value="2" onclick="concatNumber('2')"></td>
+           <td> <input type="button" value="3" onclick="concatNumber('3')"></td>
+           <td><input type="button" value="-" onClick= "setOperator('-')"></td>
+           <td><input type="button" value="=" onClick="equals()"></td>
+        </tr>
+            <br/>
+            <br/>
+            <tr>
+           <td><input type="button" value="4" onclick="concatNumber('4')"></td>
+           <td><input type="button" value="5" onclick="concatNumber('5')"></td>
+           <td><input type="button" value="6" onclick="concatNumber('6')"></td>
+           <td><input type="button" value="+" onClick= "setOperator('+')"></td>
+          <td><input type="button" value="0" onclick="concatNumber('0')"></td>
+
+        </tr>
+            <br/>
+            <br/>
+            <tr>
+            <td><input type="button" value="7" onclick="concatNumber('7')"></td>
+            <td><input type="button" value="8" onclick="concatNumber('8')"></td>
+            <td><input type="button" value="9" onclick="concatNumber('9')"></td>
+           <td><input type="button" value="*" onClick= "setOperator('*')"></td>
+           <td><input type="button" value="/"onClick= "setOperator('/')"></td>
+           
+            </tr>
+        </table>
+        </form>
+        <script src="index.js"></script>
+        
+    </body>
+</html>
