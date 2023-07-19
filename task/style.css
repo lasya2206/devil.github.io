@@ -1,0 +1,414 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .carousel-item.active {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 18px !important;
+}
+.carousel-item-next, .carousel-item-prev {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 18px !important;
+}
+/* Header Code */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    max-width: 1244px;
+}
+.navbar .navlinks{   
+     display: flex;
+    align-items: center;
+}
+.navbar .navlinks a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.navbar img{
+    margin-top: 6px;
+    padding-bottom: 9px;
+    margin-left: 12px;
+}
+.Navbutton{
+    background: #F29E38;
+    color: #FFFFFF;
+    Font-Weight: 500;
+    Font-Size: 14px;
+    line-height: 20.08px;
+    width: 123px;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+}
+/* firstsection */
+.firstsection{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background-image: url(/Images/firstsectionbg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 814px;
+    display: flex;
+    align-items: center; 
+}
+.getstarted{
+    background-color: transparent !important;
+    color: #F29E38 !important;
+    border: 1px solid #F29E38 !important;
+    width: 154px;
+    height: 48px;
+}
+.firstsectionleft{
+    width: 36%;
+    margin: auto;
+}
+.firstsectionleft h1{
+    width: 72%;
+}
+.firstsectionright{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* qliquedescriptionsection */
+.qliquedescriptionsection{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background-image: url(/Images/backgroundimage.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 690px;
+}
+.qliquedescriptioncontainer{
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qliquedescriptioncontainerleft{
+    padding-top: 18%;
+}
+.qliquedescriptioncontainerleft img{
+    width: 80%;
+}
+.qliquedescriptioncontainerright{
+    width: 50%;
+}
+.Learnmore{
+    background: #F29E38 !important;
+    color: #FFFFFF !important;
+    width: 154px;
+    height: 48px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.qliquedescriptionheading{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+.qliquedescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+/* Whatmakesusuniquesection */
+.Whatmakesusuniquesection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background: #E2EAFE;
+}
+.Whatmakesusuniquecontainer{
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.card1{
+    width: 26%;
+    margin-top: 28px;
+    height: 319px;
+    border-radius: 7px;
+    background: white;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.cardoneheading{
+    padding-top: 12px;
+    width: 64%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+}
+.cardonedescription{
+    width: 88%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* Workingmapsection */
+.Workingmapsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+}
+.Workingmapcontainer{
+    width: 62%;
+    margin: auto;
+}
+.Workingmapheading{
+    padding-bottom: 50px;
+}
+.Workingmapheading h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #000000;
+}
+.Workingmapcontainerleft{
+    width: 90%;
+    margin: auto;
+    padding-right: 8%;
+}
+.Workingmapcontainerleft img{
+    width: 100%;
+    padding-bottom: 56px;
+}
+.Workingmapcontainertext{
+    text-align: right;
+    padding-bottom: 24px;
+}
+.Workingmapcontainertext h5{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 40px;
+    color: #292A2B;
+}
+.Workingmapcontainertext p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+.Workingmapcontainercenter{
+    padding-bottom: 44px;
+}
+.Workingmapcontainerright{
+    width: 90%;
+    margin: auto;
+    padding-left: 8%; 
+}
+.Workingmapcontainerrighttext{
+    text-align: left;
+}
+.Workingmapcontainerrighttext h5{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 40px;
+    color: #292A2B;
+}
+.Workingmapcontainerrighttext p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+.Workingmapcontainerright img{
+    width: 90%;
+}
+/* testimonialsection */
+.testimonialsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 40px;
+    background: #E2EAFE;
+    background-image: url(/Images/quotes.svg);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.testimonialsectioncontainer{
+    width: 90%;
+    margin: auto;
+}
+.testimonialsectionheading{
+    padding-bottom: 50px;
+}
+.testimonialsectionheading h1{
+   padding-left: 22px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+/* Logoscloudsection */
+.Logoscloudsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+}
+.Logoscloudcontainer{
+    width: 90%;
+    margin: auto;
+    height: 491px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logoscloudtext{
+    width: 45%;
+    margin: auto;
+}
+.Logoscloudhead{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    width: 62%;  
+}
+.Logosclouddescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 65%;
+    padding-top: 15px;
+}
+
+/* CTAcontainer */
+.CTAcontainersection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+.CTAcontainer{
+    width: 90%;
+    margin: auto;
+    background: #FFE3C1;
+    height: 491px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.CTAcontainertext{
+    width: 38%;
+    margin: auto;
+}
+.CTAcontainerimage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phonephoto1{
+    position: relative;
+    bottom: 38px;
+}
+.phonephoto2{
+    position: relative;
+    top: 37px;
+}
+.CTAcontainerhead{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+.CTAcontainerdescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.Gettheapptext{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.downloadoptionicons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 313px;
+    background: linear-gradient(180deg, #7198F8 0%, #4063B8 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerlogo{
+    width: 15%;
+}
+.footertext{
+color: #FFFFFF;
+}
+.HelpHeading{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.Helptext{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.exploresection{
+    padding-top: 34px;
+}
+.copyrightsection{
+    width: 100%;
+    background: #4366BC;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrighttextsection{
+    width: 74%;
+    margin: auto;
+}
+.copyrighttext{
+    padding-left: 37px;
+    color: #D9DBE1;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.socialmediaicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    margin: auto;
+}
